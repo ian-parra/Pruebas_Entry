@@ -6,10 +6,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
 # Instalar las dependencias necesarias para ReBreakCaptcha
-subprocess.call(['sudo', 'pip', 'install', 'pydub', 'SpeechRecognition', 'selenium'])
+subprocess.call(['sudo', '-S', 'pip', 'install', 'pydub', 'SpeechRecognition', 'selenium'], stdin=subprocess.PIPE)
 
 # Clonar el repositorio de ReBreakCaptcha
-subprocess.call(['git', 'clone', 'https://github.com/eastee/rebreakcaptcha.git'])
+subprocess.call(['sudo', '-S', 'git', 'clone', 'https://github.com/eastee/rebreakcaptcha.git'], stdin=subprocess.PIPE)
 
 # Cambiar al directorio del script clonado
 os.chdir('rebreakcaptcha')
