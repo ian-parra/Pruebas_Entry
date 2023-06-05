@@ -2,10 +2,6 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-import subprocess
-
-subprocess.call(['sudo', 'pip', 'install', 'pydub', 'SpeechRecognition', 'selenium'])
-subprocess.call(['git', 'clone', 'https://github.com/eastee/rebreakcaptcha.git'])
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
