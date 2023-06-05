@@ -2,6 +2,10 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+import subprocess
+
+subprocess.call(['sudo', 'pip', 'install', 'pydub', 'SpeechRecognition', 'selenium'])
+subprocess.call(['git', 'clone', 'https://github.com/eastee/rebreakcaptcha.git'])
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -42,7 +46,8 @@ def guardar_en_csv(data):
 
 
 # URL y cantidad de lugares a farmear
-url = "https://www.allaccess.com.ar/event/usted-senalemelo-"
-cantidad_lugares = 10
+url = "https://dfentertainment.queue-it.net/?c=dfentertainment&e=ustedsenalemelo2023&cid=es-CL"
+cantidad_lugares = 1
+
 
 automatizar_farmeo(url, cantidad_lugares)
