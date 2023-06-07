@@ -78,7 +78,7 @@ def guardar_en_excel(data):
 
 
 # URL y cantidad de lugares a farmear
-url = "https://dfentertainment.queue-it.net/?c=dfentertainment&e=ustedsenalemelo2023&cid=es-CL&scv=%7B%22sessionId%22%3A%22741981ba-2aa7-4a59-8382-cbb312fbbdff%22%2C%22timestamp%22%3A%222023-06-04T23%3A23%3A28.1083787Z%22%2C%22checksum%22%3A%22cJaNpPR0t%2B3%2F6VBZpGCLSYvvFcO8tGt7RvgESS3NGsY%3D%22%2C%22sourceIp%22%3A%22190.122.213.227%22%2C%22challengeType%22%3A%22botdetect%22%2C%22version%22%3A6%2C%22customerId%22%3A%22dfentertainment%22%2C%22waitingRoomId%22%3A%22ustedsenalemelo2023%22%7D"
-cantidad_lugares = 10
+url = "https://dfentertainment.queue-it.net/?c=dfentertainment&e=tsbcopat&cid=es-CL&scv=%7B%22sessionId%22%3A%2228f415a8-8d92-43fb-9116-d981367970a1%22%2C%22timestamp%22%3A%222023-06-05T12%3A00%3A19.2000583Z%22%2C%22checksum%22%3A%22Mey4SguiEbl%2FKwKFbC7VJddXdlCpK%2Bf8g5dB1ua9%2FYQ%3D%22%2C%22sourceIp%22%3A%22190.122.213.227%22%2C%22challengeType%22%3A%22botdetect%22%2C%22version%22%3A6%2C%22customerId%22%3A%22dfentertainment%22%2C%22waitingRoomId%22%3A%22tsbcopat%22%7D"
+cantidad_lugares = 1
 
 automatizar_farmeo(url, cantidad_lugares)
